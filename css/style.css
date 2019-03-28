@@ -153,7 +153,7 @@ form{
     background: #6dd47e;
     color: #000!important;
     font-weight: bold;
-    width: 300px;
+    width: 260px;
     display: block;
     margin:0 auto;
 }
@@ -230,10 +230,6 @@ form{
     margin-top:50px;
 }
 
-.panel-default:hover{
-    cursor: pointer;
-}
-
 .panel-heading{
     color: #283250;
 }
@@ -243,15 +239,9 @@ form{
 }
 
 
-
-.panel-heading:hover{
-    color: #1C6376;
+.servicesHeading{
+    margin-bottom:0;
 }
-
-.btnToTop:hover{
-    cursor: pointer;
-}
-
 /* End of info blocks */
 
 /*   footer section */
@@ -301,6 +291,15 @@ form{
 }
 #inputSub{
     margin-bottom:10px;
+}
+#subBtn{
+    background-color:#6dd47e;
+    color:#283250;
+    font-weight:bold;
+}
+#subBtn:hover{
+    background: #009E93;
+    color: #fff!important;
 }
 
 input.btn.btn-lg,
@@ -355,6 +354,22 @@ SUBMIT PAGE STYLES
 ####################################################
 */
 
+/* new styles */
+.ratingNumber{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom:0;
+}
+
+.ratingImg{
+    display: block;
+    margin: auto;
+}
+.offeralign{
+    align-items: center;
+}
+/* Old styles */
 #page-welcome{
     text-align: center;
     margin: 10px;
