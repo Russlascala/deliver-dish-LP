@@ -1,0 +1,596 @@
+body{
+    font-family:'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#logo-img{
+    width:55%;
+    display: block;
+    margin:5px auto;
+
+}
+.line{
+    height: 2px;
+    background: #6dd47e;
+    width:100%;
+}
+#leftTopTxt{
+    margin-top:15px;
+    text-align: center;
+    /*  text-shadow: #283250 1px 0 10px; */
+     text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
+    color:#fff;
+    font-size:25px;
+} 
+.rightTxtBox{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+#right-txt{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    /* display: none; */
+    display:block;
+}
+#right-txt span{
+    color: #6dd47e;
+}
+.nowDeliv{
+    margin-bottom:0;
+    display: none;
+}
+
+#topStart{
+    display: block;
+    margin: 5px auto;
+}
+
+
+.view{
+     background-image: url(../imgs/bgImg.jpg);
+    /*background-repeat: no-repeat;
+    background-size: auto; */
+    /* height: 1000px; */
+       /* The image used */
+    /* Set a specific height */
+   /*  height:740px;  */
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+/*  Start Form Styles */
+.formContainer{
+    margin-top: 8px;
+}
+form{
+    /* background: rgba(255, 255, 255, 0.5)!important; */
+    background: #e4e4e4!important;
+
+}
+
+.form-parts{
+    margin-top: 10px;
+}
+
+#submitBtn{
+    font-weight: bold;
+    color:#000;
+    background: #6dd47e;
+    font-size:18px;
+}
+
+.formBtn:hover {
+  transition : 0.3s;
+  box-shadow : 0px 0px 1px 6px #00A607;
+  cursor : pointer;
+}
+
+#secureImg{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px;
+    margin-bottom: 10px
+}
+
+#disclaim{
+    margin-bottom: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #000;
+    margin-top: 15px;
+    font-size:10px;
+}
+/* left of form styles */
+.tableStyle{
+    color:#fff;
+    font-size: 25px;
+    /* text-shadow: #000 1px 0 10px; */
+   /*  text-shadow: 2px 2px 5px black; */
+     text-shadow: 1px 1px 2px black, 0 0 25px #000, 0 0 5px #000;
+}
+
+.imgTxt{
+    color:#fff;
+    /* text-shadow: #000 1px 0 10px; */
+   /*  text-shadow: 2px 2px 5px black; */
+     text-shadow: 1px 1px 2px black, 0 0 25px #000, 0 0 5px #000;
+}
+.imgTxt p {
+    font-size:18px;
+}
+
+#saveOn{
+    margin-bottom: 15px!important;
+}
+
+#arrowImg{
+        display: none;
+     }
+/* End Form Styles */
+
+
+
+
+/* Content After Form Styles  */
+.content-afterform{
+    margin-top: 50px;
+    text-align:center;
+    margin-bottom:50px;
+}
+.icons-top{
+    color:#009E93;
+    font-size:40px;
+    display: inline-block;
+}
+#three-bullets{
+    margin-top:25px;
+}
+.startBtn{
+    background: #6dd47e;
+    color: #000!important;
+    font-weight: bold;
+    width: 300px;
+    display: block;
+    margin:0 auto;
+}
+.startBtn:hover{
+    background: #009E93;
+    color: #fff!important;
+}
+#topStart{
+    width:200px;
+}
+/* End Content After Form Styles  */
+
+/* Our Experts secion and text section */
+.nameTxt{
+    /* display: flex; */
+    margin-left:15px;
+}
+.expertsContent{
+    display: flex;
+    flex-direction: row;
+    margin-top:1rem;
+}
+.expertsImgs{
+    border-radius: 100%;
+    width: 78px;
+    height: 78px;
+    justify-content: center;
+}
+.expertName{
+    margin-bottom:0px;
+    font-weight: bold;
+    color: #009E93;
+}
+
+.expertTxt{
+    font-size: 14px;
+}
+
+
+/* Start Of Scroll Section */
+
+.sectionScroll{
+    background-image: url(../imgs/ImgScroll.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 50px 2px rgba(1, 1, 1, 0.6);
+
+}
+
+.block-color{
+    background:rgba(0, 0, 0, 0.781);;
+    margin-top: 20px;
+    margin-bottom:20px;
+    padding:15px;
+}
+
+/* END Of Scroll Section */
+
+/* Start of info blocks */
+.accordion-section .panel-default .panel-heading {
+    border: 0;
+    background: #eaeaea;
+    padding: 0;
+    margin-top:50px;
+}
+
+.panel-title{
+    margin-bottom: 0;
+}
+
+.accordion-section h2{
+    margin-top:50px;
+}
+
+.panel-default:hover{
+    cursor: pointer;
+}
+
+.panel-heading{
+    color: #283250;
+}
+
+.panel-heading h3 {
+    font-size: 1.25rem;
+}
+
+
+
+.panel-heading:hover{
+    color: #1C6376;
+}
+
+.btnToTop:hover{
+    cursor: pointer;
+}
+
+/* End of info blocks */
+
+/*   footer section */
+/* section logo above footer */
+#sectionFive{
+    background-color: #e6e6e6;
+   
+}
+/* footer */
+#footerLogo{
+    width:60%;
+    margin:15px;
+}
+.lineFade{ 
+    height:1px;
+    background: #e4e4e4;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#e4e4e4), to(#e4e4e4), color-stop(50%, #6dd47e));
+}
+/*   end third section */
+
+/* Subscribe css */
+.subSection{
+    padding: 30px 0 30px 0;;
+    text-align: center;
+    margin-top:30px;
+    background-color: #e6e6e6;
+}
+.subBlock{
+    display: block;
+    margin:0 auto;
+}
+.subTitle{
+    font-size:20px;
+}
+.well{
+    background-color:#dcdcdc;
+}
+.free {
+    text-transform: uppercase;
+}
+.input-group {
+    margin: 20px auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+#inputSub{
+    margin-bottom:10px;
+}
+
+input.btn.btn-lg,
+input.btn.btn-lg:focus {
+    outline: none;
+    width: 100%;
+    height: 60px;
+}
+button.btn {
+    width: 100%;
+    height: 60px;
+    
+}
+.promise {
+    color: #999;
+    margin-bottom:20px;
+}
+
+.Teaser{
+    font-size:16px;
+}
+
+
+footer{
+    background-color: #e6e6e6;
+    color: black;
+}
+
+footer a{
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #000;
+}
+footer a:hover{
+    color: #283250;
+}
+
+#altLinks{
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+#copyRight{
+    font-size: 12px;
+}
+/*   end footer section */
+
+
+/*
+####################################################
+SUBMIT PAGE STYLES
+####################################################
+*/
+
+#page-welcome{
+    text-align: center;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#desktopHeading {
+    display:none;
+}
+
+#mobileHeading{
+    display: inline-block;
+}
+
+.showContentMobile{
+ display: inline-block;
+}
+
+.showContentDesktop{
+    display:none;
+}
+
+.border-blocks {
+    border:2px solid black;
+    margin-bottom:10px;
+    -webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+}
+
+.list-num{
+    text-align: right;
+    margin-top:auto;
+    margin-bottom: auto; 
+    font-size: 30px;
+}
+
+.list-num p{
+    /* background-color: #00A607;
+    text-align: center;
+    border-radius: 100%; */
+    
+    background: #00A607;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    /* margin-right: 15px; */
+    text-align: center;
+    width: 1.6em;
+    display:none;
+}
+
+
+/* #first-block{
+    margin-top:26px;
+} */
+.listing-block {
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.listing-title{
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.listing-title a{
+    color: #1a0dab;
+    /* text-decoration: underline; */
+}
+.listing-title a:visited {
+    color: #609;
+}
+
+.listing-title a span:hover{
+    text-decoration: underline;
+}
+
+.listing-url{
+    color: #006621;
+    margin-bottom:0;
+    /* overflow: hidden; */
+    overflow-wrap: break-word;
+}
+
+/*
+####################################################
+END SUBMIT PAGE STYLES 
+####################################################
+*/
+
+
+
+
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+ 
+/* 
+Extra small devices (portrait phones, less than 544px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+
+ 
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) { 
+    /* Form Styles */ 
+
+    .formContainer{
+        margin-top: 18px;
+    }
+    /* Content After Form Styles  */
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+    #logo-img{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left:0;
+    }
+    #topStart{
+        margin-right:0;
+        margin-bottom:10px
+    }
+
+    #right-txt{
+        display: block;
+    }
+    .nowDeliv{
+        display: block;
+    }
+    .formContainer{
+        margin-top: 36px;
+        margin-bottom: 36px;
+    }
+    #leftTopTxt {
+        margin-top: 36px;
+    }
+
+    
+    /* Content After Form Styles  */
+
+    /*  submit page style */
+    #page-welcome{
+        font-size:25px;
+        font-weight:bold;
+    }
+
+    #desktopHeading {
+        display: inline-block;
+    
+    }
+
+    #mobileHeading{
+        display:none;
+        
+    }
+
+    .showContentMobile{
+ display:none;
+}
+
+.showContentDesktop{
+    display: inline-block;
+}
+
+    .list-num p{
+        display: block;
+    }
+
+    /* Footer Styles - Both Pages */
+    #footerLogo{
+        width:30%;
+    }
+
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    /* Form Styles */
+     #leftTopTxt{
+        font-size:30px;
+        margin-top: 50px;
+    }
+    .formContainer{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+  
+    #arrowImg{
+        display: block;
+        width: 369px;
+        position: absolute;
+        top: 11%;
+        left: 40%;
+    }
+
+    
+    /* Content After Form Styles  */
+    #footerLogo{
+        width:40%;
+    }
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    /* Form Styles */ 
+    .formContainer, #leftTopTxt{
+        margin-top: 60px;
+    }
+
+
+    
+    /* Content After Form Styles  */
+
+}
+ 
+ 
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+ 
+/* Set width to make card deck cards 100% width */
+@media (max-width: 950px) { 
+
+}
