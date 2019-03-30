@@ -670,6 +670,10 @@ No media query since this is the default in Bootstrap because it is "mobile firs
         margin-bottom: 50px;
     }
 
+    .rightTxtBox{
+        margin-top: 60px;
+        margin-bottom:60px;
+    }
   
     #arrowImg{
         display: block;
