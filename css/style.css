@@ -185,6 +185,7 @@ form{
     border-radius: 100%;
     width: 78px!important;
     height: 78px!important;
+    align-self: center;
     
 }
 .expertName{
