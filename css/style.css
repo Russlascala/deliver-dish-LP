@@ -179,6 +179,7 @@ form{
     display: flex;
     flex-direction: row;
     margin-top:1rem;
+    align-self: center;
 }
 .expertsImgs{
     border-radius: 100%;
