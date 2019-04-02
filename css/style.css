@@ -387,7 +387,8 @@ SUBMIT PAGE STYLES
 /* Old styles */
 #page-welcome{
     text-align: center;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom:0;
     font-size: 15px;
     font-weight: bold;
 }
